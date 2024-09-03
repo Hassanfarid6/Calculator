@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<div class="main" >
+    <div>
+         <input id="result" class="res" type="text">
+    </div>
+    <div class="xyz">
+        <div >
+            <button class="abc" onclick="getNum('7')">7</button>
+            <button class="abc" onclick="getNum('8')">8</button>
+            <button class="abc" onclick="getNum('9')">9</button>
+            <button class="abc clear" onclick="getClear()">C</button>
+            </div>
+            <div>
+                <button class="abc" onclick="getNum('4')">4</button>
+                <button class="abc" onclick="getNum('5')">5</button>
+                <button class="abc" onclick="getNum('6')">6</button>
+                <button class="abc oper" onclick="getNum('+')">+</button>
+            </div>
+            <div>
+                <button class="abc" onclick="getNum('1')">1</button>
+                <button class="abc" onclick="getNum('2')">2</button>
+                <button class="abc" onclick="getNum('3')">3</button>
+                <button class="abc oper" onclick="getNum('-')">&minus;</button>
+            </div>
+            <div>
+                <button class="abc" onclick="getNum('0')">0</button>
+                <button class="abc" onclick="getNum('00')">00</button>
+                <button class="abc" onclick="getNum('000')">000</button>
+                <button class="abc oper" onclick="getNum('*')">x</button>
+            </div>
+            <div>
+                <button class="abc" onclick="getNum('(')">(</button>
+                <button class="abc" onclick="getNum(')')">)</button>
+                <button class="abc" onclick="getNum('.')">.</button>
+                <button class="abc oper" onclick="getNum('/')">&divide;</button>
+            </div>
+            <div>
+                <button class="abc" onclick="getNum('Math.sin(')">Sin</button>
+                <button class="abc" onclick="getNum('Math.cos(')">Cos</button>
+                <button class="abc" onclick="getNum('Math.tan(')">Tan</button>
+                <button class="abc" onclick="getResult()">=</button>
+            </div>
+    </div>
+    <br>
+    <strong class="name">&copy; Hassan_Ali</strong>
+</div>
+</body>
+<script src="app.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
