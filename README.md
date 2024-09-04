@@ -22,4 +22,4 @@ This project showcases a sleek and web calculator designed entirely with CSS. It
 
 ## Contact
 
-For questions or feedback, please contact me at ahmednoorani258@gmail.com.
+For questions or feedback, please contact me at hassanfarid667@gmail.com.
