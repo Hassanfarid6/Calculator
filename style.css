@@ -9,10 +9,7 @@ body {
     /* max-width: 100%;  */
      /* min-width: 30; */
      /* border: 50px solid green */
-     /* @media (max-width:900px){
-            border: 20px solid green;
-            height: 850px;
-          } */
+    
     }
     
 @media (max-width:900px){
@@ -24,7 +21,7 @@ body {
         padding: 17px
     }
     body {
-        border: 20px solid green;
+        /* border: 20px solid green; */
         height: 850px;
     }
 }
